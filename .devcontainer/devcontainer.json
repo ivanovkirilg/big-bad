@@ -1,0 +1,46 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "llvm-vs-code-extensions.vscode-clangd",
+        "akiramiyakoda.cppincludeguard",
+        "ms-vscode.cmake-tools",
+        "ms-python.python",
+        "robocorp.robotframework-lsp",
+        "mechatroner.rainbow-csv"
+      ],
+      "settings": {
+        "C/C++ Include Guard.Comment Style": "Line",
+        "C/C++ Include Guard.File Path Pascal Case to Snake Case": true,
+        "C/C++ Include Guard.Macro Type": "Filepath",
+        "C/C++ Include Guard.Auto Update Include Guard": false,
+        "C_Cpp.intelliSenseEngine": "disabled",
+        "cmake.skipConfigureIfCachePresent": true,
+        "cmake.generator": "Unix Makefiles",
+        "cmake.revealLog": "error",
+        "files.autoSave": "onFocusChange",
+        "robot.codeLens.enable": false,
+        "robot.testView.enabled": false,
+        "python.analysis.typeCheckingMode": "standard",
+        "editor.inlayHints.enabled": "offUnlessPressed",
+        "workbench.colorTheme": "Default Dark+",
+        "files.exclude": {
+          "**/.git": true,
+          "**/.cache": true,
+          "**/__pycache__": true
+        }
+      }
+    }
+  },
+  "remoteEnv": {
+    "SOURCE_DIR": "/workspaces/big-bad-voodoo-daddy/src",
+    "BUILD_DIR": "/workspaces/big-bad-voodoo-daddy/build",
+    "TEST_DIR": "/workspaces/big-bad-voodoo-daddy/tests",
+    "TEST_OUTPUT_DIR": "/workspaces/big-bad-voodoo-daddy/build/test_output",
+
+    "ROBOT_OPTIONS": "--outputdir /workspaces/big-bad-voodoo-daddy/build/test_output"
+  },
+  "postCreateCommand": "./.devcontainer/setup.bash",
+  "postAttachCommand": "./.devcontainer/start_server.bash"
+}
