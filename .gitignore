@@ -1,0 +1,8 @@
+build/
+bld/
+
+.cache/
+__pycache__/
+.venv/
+
+.vscode/
