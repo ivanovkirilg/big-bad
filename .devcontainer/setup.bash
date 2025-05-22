@@ -9,15 +9,6 @@ echo 'alias make="make -j"' >> ~/.bashrc
 alias make="make -j"
 
 
-# Build
-mkdir build
-mkdir build/test_output
-
-cd build
-cmake ..
-make
-
-
 # Software
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -25,3 +16,12 @@ sudo apt-get -y install clangd
 sudo apt-get -y install pip
 
 pip install --no-input --break-system-packages robotframework
+
+
+# Build
+mkdir build
+mkdir build/test_output
+
+cd build
+cmake ..
+make
