@@ -4,5 +4,6 @@ Resource   resources/match_output.resource
 
 *** Test Cases ***
 Exercise Runs
-    When Program exercise is executed successfully
-    Then the output shall contain  Hello exercise
+    Given the arguments are  175  10
+    When Program stove is executed successfully
+    Then the output shall contain  (*) (*) 25

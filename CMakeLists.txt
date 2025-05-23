@@ -9,8 +9,9 @@ include_directories(src)
 ###   Build your code here   ###
 
 add_executable(
-    exercise
+    stove
     src/main.cpp
+    src/Stove.cpp
 )
 
 
@@ -18,11 +19,11 @@ add_executable(
 
 add_ut(
     unit_test
-    src/Exercise.cpp
-    tests/test_Exercise.cpp
+    src/Stove.cpp
+    tests/test_Stove.cpp
 )
 
 
 ###   Add your robot tests here   ###
 
-add_bdd_test(BDD_exercise exercise.robot)
+add_bdd_test(BDD_exercise test_stove.robot)
