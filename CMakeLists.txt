@@ -9,20 +9,20 @@ include_directories(src)
 ###   Build your code here   ###
 
 add_executable(
-    exercise
-    src/main.cpp
+    voodoo
+    src/voodoo.cpp
 )
 
 
 ###   Add your unit tests here   ###
 
 add_ut(
-    unit_test
-    src/Exercise.cpp
-    tests/test_Exercise.cpp
+    TEST_Printer
+    src/Printer.cpp
+    tests/test_Printer.cpp
 )
 
 
 ###   Add your robot tests here   ###
 
-add_bdd_test(BDD_exercise exercise.robot)
+add_bdd_test(BDD_example example.robot)
