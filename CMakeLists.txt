@@ -11,6 +11,7 @@ include_directories(src)
 add_executable(
     voodoo
     src/voodoo.cpp
+    src/Printer.cpp
 )
 
 
