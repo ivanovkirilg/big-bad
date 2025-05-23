@@ -10,5 +10,5 @@ Suite Teardown  Remove Directory                      %{BUILD_DIR}/data    recur
 *** Test Cases ***
 Voodoo Is Not Implemented
     Given the arguments are  doesn't matter anyway
-    When Program voodooo is executed successfully
+    When Program voodoo is executed successfully
     Then the error output shall contain  Not implemented
