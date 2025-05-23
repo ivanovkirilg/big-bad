@@ -1,0 +1,111 @@
+Start testing: May 23 12:42 UTC
+----------------------------------------------------------
+1/4 Testing: TestVendingMachine.get_balance
+1/4 Test: TestVendingMachine.get_balance
+Command: "/workspaces/big-bad/build/unit_test" "--gtest_filter=TestVendingMachine.get_balance" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/big-bad/build
+"TestVendingMachine.get_balance" start time: May 23 12:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TestVendingMachine.get_balance
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestVendingMachine
+[ RUN      ] TestVendingMachine.get_balance
+[       OK ] TestVendingMachine.get_balance (0 ms)
+[----------] 1 test from TestVendingMachine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestVendingMachine.get_balance" end time: May 23 12:42 UTC
+"TestVendingMachine.get_balance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: TestVendingMachine.insert_coin_correct
+2/4 Test: TestVendingMachine.insert_coin_correct
+Command: "/workspaces/big-bad/build/unit_test" "--gtest_filter=TestVendingMachine.insert_coin_correct" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/big-bad/build
+"TestVendingMachine.insert_coin_correct" start time: May 23 12:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TestVendingMachine.insert_coin_correct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestVendingMachine
+[ RUN      ] TestVendingMachine.insert_coin_correct
+[       OK ] TestVendingMachine.insert_coin_correct (0 ms)
+[----------] 1 test from TestVendingMachine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestVendingMachine.insert_coin_correct" end time: May 23 12:42 UTC
+"TestVendingMachine.insert_coin_correct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: TestVendingMachine.insert_coin_negative_number
+3/4 Test: TestVendingMachine.insert_coin_negative_number
+Command: "/workspaces/big-bad/build/unit_test" "--gtest_filter=TestVendingMachine.insert_coin_negative_number" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/big-bad/build
+"TestVendingMachine.insert_coin_negative_number" start time: May 23 12:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TestVendingMachine.insert_coin_negative_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestVendingMachine
+[ RUN      ] TestVendingMachine.insert_coin_negative_number
+[       OK ] TestVendingMachine.insert_coin_negative_number (0 ms)
+[----------] 1 test from TestVendingMachine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestVendingMachine.insert_coin_negative_number" end time: May 23 12:42 UTC
+"TestVendingMachine.insert_coin_negative_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: BDD_vend
+4/4 Test: BDD_vend
+Command: "/home/vscode/.local/bin/robot" "/workspaces/big-bad/tests/test_vend.robot"
+Directory: /workspaces/big-bad/build
+"BDD_vend" start time: May 23 12:42 UTC
+Output:
+----------------------------------------------------------
+==============================================================================
+Test Vend                                                                     
+==============================================================================
+Vend runs                                                             | FAIL |
+No keyword with name 'Catenate @{input}' found. Did you try using keyword 'BuiltIn.Catenate' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Test Vend                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  /workspaces/big-bad/build/test_output/output.xml
+Log:     /workspaces/big-bad/build/test_output/log.html
+Report:  /workspaces/big-bad/build/test_output/report.html
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Failed.
+"BDD_vend" end time: May 23 12:42 UTC
+"BDD_vend" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 23 12:42 UTC

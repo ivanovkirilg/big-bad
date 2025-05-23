@@ -1,0 +1,7 @@
+add_test([=[TestVendingMachine.get_balance]=]  /workspaces/big-bad/build/unit_test [==[--gtest_filter=TestVendingMachine.get_balance]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[TestVendingMachine.get_balance]=]  PROPERTIES WORKING_DIRECTORY /workspaces/big-bad/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[TestVendingMachine.insert_coin_correct]=]  /workspaces/big-bad/build/unit_test [==[--gtest_filter=TestVendingMachine.insert_coin_correct]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[TestVendingMachine.insert_coin_correct]=]  PROPERTIES WORKING_DIRECTORY /workspaces/big-bad/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[TestVendingMachine.insert_coin_negative_number]=]  /workspaces/big-bad/build/unit_test [==[--gtest_filter=TestVendingMachine.insert_coin_negative_number]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[TestVendingMachine.insert_coin_negative_number]=]  PROPERTIES WORKING_DIRECTORY /workspaces/big-bad/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  unit_test_TESTS TestVendingMachine.get_balance TestVendingMachine.insert_coin_correct TestVendingMachine.insert_coin_negative_number)

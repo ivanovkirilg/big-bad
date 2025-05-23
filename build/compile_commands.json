@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/workspaces/big-bad/build",
+  "command": "/usr/bin/c++  -I/workspaces/big-bad/src  -o CMakeFiles/vend.dir/src/main.cpp.o -c /workspaces/big-bad/src/main.cpp",
+  "file": "/workspaces/big-bad/src/main.cpp",
+  "output": "CMakeFiles/vend.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/big-bad/build",
+  "command": "/usr/bin/c++  -I/workspaces/big-bad/src  -o CMakeFiles/vend.dir/src/VendingMachine.cpp.o -c /workspaces/big-bad/src/VendingMachine.cpp",
+  "file": "/workspaces/big-bad/src/VendingMachine.cpp",
+  "output": "CMakeFiles/vend.dir/src/VendingMachine.cpp.o"
+},
+{
+  "directory": "/workspaces/big-bad/build",
+  "command": "/usr/bin/c++  -I/workspaces/big-bad/src -isystem /workspaces/big-bad/build/_deps/googletest-src/googlemock/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googlemock -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest  -o CMakeFiles/unit_test.dir/src/VendingMachine.cpp.o -c /workspaces/big-bad/src/VendingMachine.cpp",
+  "file": "/workspaces/big-bad/src/VendingMachine.cpp",
+  "output": "CMakeFiles/unit_test.dir/src/VendingMachine.cpp.o"
+},
+{
+  "directory": "/workspaces/big-bad/build",
+  "command": "/usr/bin/c++  -I/workspaces/big-bad/src -isystem /workspaces/big-bad/build/_deps/googletest-src/googlemock/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googlemock -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest  -o CMakeFiles/unit_test.dir/tests/test_VendingMachine.cpp.o -c /workspaces/big-bad/tests/test_VendingMachine.cpp",
+  "file": "/workspaces/big-bad/tests/test_VendingMachine.cpp",
+  "output": "CMakeFiles/unit_test.dir/tests/test_VendingMachine.cpp.o"
+},
+{
+  "directory": "/workspaces/big-bad/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/workspaces/big-bad/build/_deps/googletest-src/googlemock/include -I/workspaces/big-bad/build/_deps/googletest-src/googlemock -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /workspaces/big-bad/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/workspaces/big-bad/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/workspaces/big-bad/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /workspaces/big-bad/build/_deps/googletest-src/googlemock/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googlemock -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /workspaces/big-bad/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/workspaces/big-bad/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/workspaces/big-bad/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/workspaces/big-bad/build/_deps/googletest-src/googletest/include -I/workspaces/big-bad/build/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /workspaces/big-bad/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/workspaces/big-bad/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/workspaces/big-bad/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest/include -isystem /workspaces/big-bad/build/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /workspaces/big-bad/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/workspaces/big-bad/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

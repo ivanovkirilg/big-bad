@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/unit_test.dir/src/VendingMachine.cpp.o CMakeFiles/unit_test.dir/tests/test_VendingMachine.cpp.o -o unit_test  lib/libgmock_main.a lib/libgmock.a lib/libgtest.a 

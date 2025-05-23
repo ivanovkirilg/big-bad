@@ -1,0 +1,8 @@
+TestVendingMachine.Dummy 1 0.00339582
+BDD_vend 0 0
+TestVendingMachine.get_balance 4 0.000616563
+TestVendingMachine.insert_coin_correct 3 0.000719833
+TestVendingMachine.insert_coin_negarive_number 1 0.00183986
+TestVendingMachine.insert_coin_negative_number 1 0.00220892
+---
+BDD_vend

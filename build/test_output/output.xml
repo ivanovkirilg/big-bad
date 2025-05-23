@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.3 on linux)" generated="2025-05-23T12:42:58.744207" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Vend" source="/workspaces/big-bad/tests/test_vend.robot">
+<test id="s1-t1" name="Vend runs" line="11">
+<kw name="Given set test input" owner="run_program">
+<kw name="Catenate @{input}">
+<msg time="2025-05-23T12:42:58.770307" level="FAIL">No keyword with name 'Catenate @{input}' found. Did you try using keyword 'BuiltIn.Catenate' and forgot to use enough whitespace between keyword and arguments?</msg>
+<var>${joined_input}</var>
+<status status="FAIL" start="2025-05-23T12:42:58.770255" elapsed="0.000116">No keyword with name 'Catenate @{input}' found. Did you try using keyword 'BuiltIn.Catenate' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<arg>@{std_input}</arg>
+<arg>@{input} ${joined_input}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" start="2025-05-23T12:42:58.770574" elapsed="0.000032"/>
+</kw>
+<arg>Soda\n</arg>
+<arg>200\n</arg>
+<arg>exit\n</arg>
+<status status="FAIL" start="2025-05-23T12:42:58.768661" elapsed="0.002086">No keyword with name 'Catenate @{input}' found. Did you try using keyword 'BuiltIn.Catenate' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="When Program vend is executed successfully" owner="run_program" source_name="Program ${program} is executed successfully">
+<status status="NOT RUN" start="2025-05-23T12:42:58.770956" elapsed="0.000033"/>
+</kw>
+<kw name="Then the output shall contain" owner="match_output">
+<arg>Welcome to the Vending Machine!</arg>
+<status status="NOT RUN" start="2025-05-23T12:42:58.771120" elapsed="0.000024"/>
+</kw>
+<status status="FAIL" start="2025-05-23T12:42:58.768014" elapsed="0.003270">No keyword with name 'Catenate @{input}' found. Did you try using keyword 'BuiltIn.Catenate' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<status status="FAIL" start="2025-05-23T12:42:58.745079" elapsed="0.026646"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Vend" id="s1" pass="0" fail="1" skip="0">Test Vend</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

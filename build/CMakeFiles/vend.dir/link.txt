@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/vend.dir/src/main.cpp.o CMakeFiles/vend.dir/src/VendingMachine.cpp.o -o vend 

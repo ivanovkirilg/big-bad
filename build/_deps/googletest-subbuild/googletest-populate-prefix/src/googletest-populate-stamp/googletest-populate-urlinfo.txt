@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/workspaces/big-bad/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake;COMMAND;/usr/bin/cmake;-P;/workspaces/big-bad/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake;COMMAND;/usr/bin/cmake;-P;/workspaces/big-bad/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
+source_dir=/workspaces/big-bad/build/_deps/googletest-src
+work_dir=/workspaces/big-bad/build/_deps
+url(s)=https://github.com/google/googletest/archive/0bdccf4aa2f5c67af967193caf31d42d5c49bde2.zip
+hash=
+no_extract=
+
