@@ -34,12 +34,12 @@
     }
   },
   "remoteEnv": {
-    "SOURCE_DIR": "/workspaces/big-bad-voodoo-daddy/src",
-    "BUILD_DIR": "/workspaces/big-bad-voodoo-daddy/build",
-    "TEST_DIR": "/workspaces/big-bad-voodoo-daddy/tests",
-    "TEST_OUTPUT_DIR": "/workspaces/big-bad-voodoo-daddy/build/test_output",
+    "SOURCE_DIR": "/workspaces/big-bad/src",
+    "BUILD_DIR": "/workspaces/big-bad/build",
+    "TEST_DIR": "/workspaces/big-bad/tests",
+    "TEST_OUTPUT_DIR": "/workspaces/big-bad/build/test_output",
 
-    "ROBOT_OPTIONS": "--outputdir /workspaces/big-bad-voodoo-daddy/build/test_output"
+    "ROBOT_OPTIONS": "--outputdir /workspaces/big-bad/build/test_output"
   },
   "postCreateCommand": "./.devcontainer/setup.bash",
   "postAttachCommand": "./.devcontainer/start_server.bash"
